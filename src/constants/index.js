@@ -3,26 +3,23 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
+  amazon,
+  api,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  git,
+  javascript,
+  kubernetes,
+  linux,
+  python,
+  reactjs,
+  typescript,
   threejs,
+  generali,
+  idf,
+  coffeeai,
+  linuxtool,
+  stocks,
+
 } from "../assets";
 
 export const navLinks = [
@@ -42,31 +39,31 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Critical Thinking",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Problem Solver",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Communication",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Creativity",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Amazon",
+    icon: amazon,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Api",
+    icon: api,
   },
   {
     name: "JavaScript",
@@ -81,20 +78,16 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Kubernetes",
+    icon: kubernetes,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Linux",
+    icon: linux,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Three JS",
@@ -105,66 +98,33 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
 ];
 
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Analyst",
+    company_name: "Generali",
+    icon: generali,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2023 - Sept 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Automated claims data processing using VBA and SQL to improve reporting reliability and accelerate workflows.",
+      "Maintained and optimized Microsoft Access systems to ensure accurate and reliable data for operational and financial decision-making.",
     ],
-  },
+  }, 
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Financial Data & Operations Intern",
+    company_name: "Île-de-France Regional Council",
+    icon: idf,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2022 - Sept 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Python scripts to automate financial reporting tasks and support the management of regional intervention expenses, improving efficiency and reducing manual workload.",
+      "Collaborated with operational teams through regular meetings to align and optimize financial workflows.",
     ],
   },
 ];
@@ -172,93 +132,84 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "Stéphane quickly adapted to the team and delivered high-quality work with great autonomy.",
+    name: "Alexa Guena",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Île-de-France Regional Council",
   },
+  
+
+
+
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Working with Stéphane was a great experience. He understood my vision quickly and turned it into a functional and beautiful website.",
+    name: "Alexis L.",
+    designation: "Photographer",
+    company: "Aleh.prod"
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Coffee Chatbot (In Progress)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI chatbot that helps users place orders and get personalized recommendations in real time.",
     tags: [
       {
-        name: "react",
+        name: "LLMs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "reactnative",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: coffeeai,
+    source_code_link: "https://github.com/stxpheld/coffee_ai"
+
   },
   {
-    name: "Job IT",
+    name: "Linux Toolkit",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Python script managing various applications and system settings on a linux machine.",
     tags: [
       {
-        name: "react",
+        name: "bash",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: linuxtool,
+    source_code_link: "https://github.com/stxpheld/linuxtoolkit",
   },
   {
-    name: "Trip Guide",
+    name: "Real-Time Stock Market",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that tracks and visualizes live stock market data in real time.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ui",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: stocks,
+    source_code_link: "https://github.com/stxpheld/stockmarketapp",
   },
 ];
 
